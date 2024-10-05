@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PORT = '8080'
+        PORT = '3051'
         DOCKER_TAG = 'template_docker_tag' //MUST CHANGE 
         EXTERNAL_PORT = '8000'
         LOGIN_BASE_PATH = "https://lila.com.ar"
