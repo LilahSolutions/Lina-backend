@@ -19,6 +19,9 @@ var (
 	GEMINI_TEMPERATURE = 0.1
 )
 
+/**
+  * Example of a user in JSON
+**/
 var USER_DATA = `{
   "user": {
     "name": "John Doe",
@@ -55,6 +58,9 @@ var USER_DATA = `{
 }
 `
 
+/**
+  * Summary of tomato, potato and lettuce needs
+**/
 var CROP_DATA = `{
   "crops": {
     "tomato": {
@@ -123,12 +129,15 @@ var CROP_DATA = `{
   }
 }`
 
+/**
+  * Weather data for the week starting on 2024-10-03 in Santa Rosa, Mendoza, Argentina
+**/
 var WEATHER_DATA = `{ 
   "weatherData": {
-    "weekStarting": "2024-09-23",
+    "weekStarting": "2024-10-03",
     "dailyData": [
       {
-        "date": "2024-09-23",
+        "date": "2024-10-03",
         "temperature": {
           "dailyAverage": 26.1,
           "minTemperature": 18.2,
@@ -154,7 +163,7 @@ var WEATHER_DATA = `{
         "dewPoint": 16.3
       },
       {
-        "date": "2024-09-24",
+        "date": "2024-10-04",
         "temperature": {
           "dailyAverage": 27.4,
           "minTemperature": 19.0,
@@ -180,7 +189,7 @@ var WEATHER_DATA = `{
         "dewPoint": 17.1
       },
       {
-        "date": "2024-09-25",
+        "date": "2024-10-05",
         "temperature": {
           "dailyAverage": 25.8,
           "minTemperature": 17.5,
@@ -206,7 +215,7 @@ var WEATHER_DATA = `{
         "dewPoint": 15.8
       },
       {
-        "date": "2024-09-26",
+        "date": "2024-10-06",
         "temperature": {
           "dailyAverage": 26.3,
           "minTemperature": 18.6,
@@ -232,7 +241,7 @@ var WEATHER_DATA = `{
         "dewPoint": 16.5
       },
       {
-        "date": "2024-09-27",
+        "date": "2024-10-07",
         "temperature": {
           "dailyAverage": 27.9,
           "minTemperature": 19.3,
@@ -258,7 +267,7 @@ var WEATHER_DATA = `{
         "dewPoint": 17.6
       },
       {
-        "date": "2024-09-28",
+        "date": "2024-10-08",
         "temperature": {
           "dailyAverage": 28.6,
           "minTemperature": 20.1,
@@ -284,7 +293,7 @@ var WEATHER_DATA = `{
         "dewPoint": 18.1
       },
       {
-        "date": "2024-09-29",
+        "date": "2024-10-09",
         "temperature": {
           "dailyAverage": 27.3,
           "minTemperature": 19.2,
