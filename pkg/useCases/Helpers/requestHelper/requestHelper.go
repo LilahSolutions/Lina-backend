@@ -1,11 +1,11 @@
 package requestHelper
 
 import (
+	"agrobal-backend/pkg/domain/response"
 	"bytes"
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"middlend-template/pkg/domain/innerDomain/response"
 	"net/http"
 	"os"
 )

@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"middlend-template/internal/server"
+	"agrobal-backend/internal/server"
 )
 
 // @title crv-middlend

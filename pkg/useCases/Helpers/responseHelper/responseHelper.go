@@ -1,8 +1,8 @@
 package responseHelper
 
 import (
+	"agrobal-backend/pkg/domain/response"
 	"encoding/json"
-	"middlend-template/pkg/domain/innerDomain/response"
 	"net/http"
 )
 

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"middlend-template/internal/server/routes"
+	"agrobal-backend/internal/server/routes"
 
 	"github.com/go-chi/chi"
 )
@@ -21,7 +21,7 @@ func New(port string) (*Server, error) {
 	r := chi.NewRouter()
 
 	// Se monta como raiz la direccion "api"
-	r.Mount("/api/template", routes.New()) //MUST CHANGE MOUNT ROUTE
+	r.Mount("/api/agrobal", routes.New()) //MUST CHANGE MOUNT ROUTE
 
 	serv := &http.Server{
 		Addr:              ":" + port,

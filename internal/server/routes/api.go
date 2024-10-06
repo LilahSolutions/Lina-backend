@@ -6,14 +6,12 @@ import (
 	"github.com/go-chi/chi"
 )
 
-var (
-	INTERNAL_SERVER_ERROR = []byte("500: Internal Server Error")
-	FORBIDDEN             = []byte("403: Forbidden")
-	BAD_REQUEST           = []byte("400: Bad Request")
-)
-
 func New() http.Handler {
 	r := chi.NewRouter()
+
+	chatRouter := ChatRouter{}
+
+	r.Mount("/chat", chatRouter.Routes())
 
 	return r
 }
