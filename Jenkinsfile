@@ -1,14 +1,14 @@
 pipeline {
     agent any
     environment {
-        PORT = '3051'
-        DOCKER_TAG = 'agrobal-frontend'
+        PORT = '10000'
+        DOCKER_TAG = 'agrobal-backend'
     }
     stages {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'docker build -t $DOCKER_TAG:1.0 .'
+                sh 'docker build -t $DOCKER_TAG .'
             }
         }
         stage('Deploy') {
